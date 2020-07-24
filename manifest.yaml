@@ -1,0 +1,7 @@
+  
+applications:
+- name: demo_nodejs_app
+  command: node index.js
+  host: trial
+  path: .
+  memory: 128M
