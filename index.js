@@ -23,6 +23,10 @@ app.use("/schedule", scheduleRoutes);
 router.get("/", async function (req, res) {
   res.send("Hello jenkins");
 });
+
+router.get("/hello", async function (req, res) {
+  res.send("Hello jenkins2");
+});
 //#endregion
 
 //#region POST
