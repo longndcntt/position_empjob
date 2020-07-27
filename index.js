@@ -21,7 +21,7 @@ app.use("/schedule", scheduleRoutes);
 
 //#region get
 router.get("/", async function (req, res) {
-  res.sendFile(path + "/views/index.html");
+  res.send("Hello jenkins");
 });
 //#endregion
 
@@ -32,7 +32,7 @@ app.post("/delete", async function (req, res) {
 });
 //#endregion
 
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 8082;
 app.listen(port, function () {
   console.log("Live at Port 8080");
 });
