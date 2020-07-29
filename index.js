@@ -25,7 +25,7 @@ router.get("/", async function (req, res) {
 });
 
 router.get("/hello", async function (req, res) {
-  res.send("Hello jenkins3");
+  res.send("Hello jenkins 4");
 });
 //#endregion
 
